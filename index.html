@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e01e13ae9c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" href="./img/specials-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+    <title>Barcha loyihalar</title>
+</head>
+
+<body onload="loading()">
+
+    <!-- <div class="loader">
+        <div class="thing">
+            <div class="anima"></div>
+        </div>
+    </div> -->
+
+    <button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up"></i></button>
+
+    <div id="nav" class="">
+        <div class="container">
+            <div class="navbar">
+                <div class="dropdown">
+                    <button onclick="openLang()" class="dropbtn">O'zb</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Rus</a>
+                        <a href="#">Ing</a>
+                    </div>
+                </div>
+
+                <ul class="navul">
+                    <li class="navli">
+                        <a href="#myWorks" onclick="navClose()" class="myWorks">Portfolio</a>
+                    </li>
+                    <li class="navli">
+                        <a href="#Rewards" onclick="navClose()" class="Rewards">Mukofotlar</a>
+                    </li>
+                    <li class="navli">
+                        <a href="#AboutMe" onclick="navClose()" class="AboutMe">Men haqimda</a>
+                    </li>
+                </ul>
+
+                <div class="burger" onclick="openNav(this)">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="" class="head d-flex align-items-center">
+        <div class="container  position-relative">
+            <div class="main_content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content">
+                            <h2>Mirvosiqov Mirafzal</h2>
+                            <p> Men <span class="txt-rotate" data-period="2000" data-rotate='[ "front-end dasturchi ", "fotografer", "frilanser " ]'></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <main>
+        <div class="container">
+            <section id="myWorks">
+                <p class="my_work">
+                    Meni portfolio
+                </p>
+
+                <div class="works">
+                    <div class="row align-items-center">
+                        <div class="with_what col-12 col-lg-4 revealXLeft">
+                            <p>
+                                Axit
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Bootstrap</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/axitMir/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/axitMir" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXRight">
+                            <img src="./img/Axit.jpg" alt="Axit First Work">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="row align-items-center flex-row-reverse">
+                        <div class="with_what col-12 col-lg-4 revealXRight">
+                            <p>
+                                personal
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Bootstrap</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/personalside/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/personalside" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXLeft">
+                            <img src="./img/Personal.jpg" alt="Personal First Work">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="row align-items-center">
+                        <div class="with_what col-12 col-lg-4 revealXLeft">
+                            <p>
+                                Flexstart
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Bootstrap</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/flexstart/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/flexstart/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXRight">
+                            <img src="./img/flexstart.jpg" alt="Flexstart First Work">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="row align-items-center flex-row-reverse">
+                        <div class="with_what col-12 col-lg-4 revealXRight">
+                            <p>
+                                Restaurants
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Bootstrap</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/restaurants/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/restaurants/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXLeft">
+                            <img src="./img/Restaurant.jpg" alt="Restaurants First Work">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="row align-items-center">
+                        <div class="with_what col-12 col-lg-4 revealXLeft">
+                            <p>
+                                shopBaby
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Bootstrap</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Vue</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/shopBaby/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/shopBaby/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXRight">
+                            <img src="./img/ShopBaby.jpg" alt="ShopBaby First Work">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="works">
+                    <div class="row align-items-center flex-row-reverse">
+                        <div class="with_what col-12 col-lg-4 revealXRight">
+                            <p>
+                                VueApi
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Bootstrap</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Vue</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/VueApi/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/VueApi/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXRight">
+                            <img src="./img/VueApi.jpg" alt="VueApi First Work">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="works">
+                    <div class="row align-items-center ">
+                        <div class="with_what col-12 col-lg-4 revealXLeft">
+                            <p>
+                                password Generator JS
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/passwordGeneratorJS/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/passwordGeneratorJS/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXRight">
+                            <img src="./img/PasswordGen.jpg" alt="passwordGeneratorJS First Work">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="row align-items-center flex-row-reverse">
+                        <div class="with_what col-12 col-lg-4 revealXRight">
+                            <p>
+                                captchaJS
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/captchaJS/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/captchaJS/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXLeft">
+                            <img src="./img/Captcha.jpg" alt="Captcha First Work">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="row align-items-center">
+                        <div class="with_what col-12 col-lg-4 revealXLeft">
+                            <p>
+                                Age Couting
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/ageCoutingJS/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/ageCoutingJS/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXRight">
+                            <img src="./img/AgeCouting.jpg" alt="ageCoutingJS First Work">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="row align-items-center flex-row-reverse">
+                        <div class="with_what col-12 col-lg-4 revealXRight">
+                            <p>
+                                EmojiJS
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/emojiJS/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/emojiJS/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXLeft">
+                            <img src="./img/Emoji.jpg" alt="emojiJS First Work">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="row align-items-center">
+                        <div class="with_what col-12 col-lg-4 revealXLeft">
+                            <p>
+                                BMI
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/BMI/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/BMI/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXRight">
+                            <img src="./img/BMI.jpg" alt="BMI First Work">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="row align-items-center flex-row-reverse">
+                        <div class="with_what col-12 col-lg-4 revealXRight">
+                            <p>
+                                Writing Box
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/writingBoxJS/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/writingBoxJS/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXLeft">
+                            <img src="./img/Writing Box.jpg" alt="writingBoxJS First Work">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="works">
+                    <div class="row align-items-center">
+                        <div class="with_what col-12 col-lg-4 revealXLeft">
+                            <p>
+                                Mario
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/mario/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/mario/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXRight">
+                            <img src="./img/MArio.jpg" alt="MArio First Work">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="row align-items-center flex-row-reverse">
+                        <div class="with_what col-12 col-lg-4 revealXRight">
+                            <p>
+                                Bg-Color
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/bg-color/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/bg-color/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXLeft">
+                            <img src="./img/bg-change.jpg" alt="bg-color First Work">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="row align-items-center">
+                        <div class="with_what col-12 col-lg-4 revealXLeft">
+                            <p>
+                                Number Game
+                            </p>
+                            <ul>
+                                <li class="with_language">
+                                    <a href="#">Html</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Css</a>
+                                </li>
+                                <li class="with_language">
+                                    <a href="#">Javascript</a>
+                                </li>
+                            </ul>
+                            <div class="sourse">
+                                <button class="works_web">
+                                    <a href="https://mirafzal1604.github.io/numberGame/" target="_blanks">Ushbu veb-saytni ko'ring</a>
+                                </button>
+                                <div class="works_git">
+                                    <a href="https://github.com/MirAfzal1604/numberGame/" target="_blanks"><img src="./img/2048px-Octicons-mark-github.svg.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works_img col-12 col-lg-8 revealXRight">
+                            <img src="./img/NumberGame.jpg" alt="numberGame First Work">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Rewards">
+                <p class="my_work">
+                    Mening mukofotlarim
+                </p>
+
+                <div class="swiper mySwiper5">
+                    <div class="swiper-wrapper">
+                        <img src="./img/html.jpg" class="swiper-slide">
+                        <img src="./img/css.jpg" class="swiper-slide">
+                        <img src="./img/js.jpg" class="swiper-slide">
+                        <img src="./img/oneMillion.jpg" class="swiper-slide">
+                    </div>
+                </div>
+            </section>
+
+            <section id="AboutMe">
+
+                <div class="about">
+                    <div class="container">
+                        <div class="aboutme">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="row about_info align-items-center">
+                                        <div class="col-12 col-lg-4 about_img">
+                                            <img src="./img/face.jpg" alt="AboutMe">
+                                        </div>
+                                        <div class="col-12 col-lg-6 infoAbout">
+                                            <p><span>Ism: </span>Mirvosiqov Mirafzal</p>
+                                            <p><span>Profil: </span>Front-end dasturchi </p>
+                                            <p><span>Elektron pochta: </span>mirvosiqovm@gmail.com</p>
+                                            <p><span>Nomer: </span>+998(94)-426-16-04</p>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <p>Ko'nikmalar</p>
+                                        <div class="skills">
+                                            <span>Html</span>
+                                            <span>95%</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 95%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skills">
+                                            <span>Css</span>
+                                            <span>93%</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 93%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skills">
+                                            <span>Bootstrap</span>
+                                            <span>75%</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 75%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skills">
+                                            <span>Javascript</span>
+                                            <span>70%</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 70%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skills">
+                                            <span>Vue js</span>
+                                            <span>60%</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 60%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skills">
+                                            <span>Swiper js</span>
+                                            <span>75%</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 75%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skills">
+                                            <span>Party js</span>
+                                            <span>55%</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 55%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 m-auto">
+                                    <p class="skill_me">
+                                        Men haqimda
+                                    </p>
+                                    <p class="info_myself">
+                                        Assalomu alaykum, mening ismim Mirafzal, men 17 yoshdaman. Men front-end dasturchiman. Men 1 yildan beri frontendni o'rganyapman, dasturlashni ustozsiz faqat Allohning barakoti bilan o'rgandim va ustozim bor, u katta dasturchi, vazirlida. (akam). Men
+                                        hech qachon yangi narsalarni o'rganishdan to'xtaymanman, chunki bolaligimdan men texnika va tajribalarni yaxshi ko'raman. Men backend, data-science o'rganmoqchiman, chunki men matematikani yaxshi ko'raman. Nafaqat
+                                        bu, balki men universitetning sirtqi ta’limda o‘qiyman.
+                                    </p>
+
+                                    <p class="info_language">
+                                        <span>O'zbek tili </span> -- C2 <br>
+                                        <span>Rus tili </span> -- C1-C2 <br>
+                                        <span>Ingliz tili </span> -- B1 <br>
+                                        <span>Arab tili </span> -- A2
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="contact">
+                <div class="links">
+                    <a href="https://github.com/MirAfzal1604"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/mirafzal_16/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/mirafzal_16"><i class="fab fa-telegram"></i></a>
+                </div>
+                <div class="link_text">
+                    <p>© 2021 - Shablon tomonidan ishlab chiqilgan va ishlab chiqilgan <a href="#" class="footer_name">Mirvosiqov Mirafzal</a>. </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/typingEffect.js"></script>
+    <script src="./js/for_lang.js"></script>
+    <script src="./js/reveal.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/swiperCube.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/loading.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+</body>
+
+</html>
