@@ -1,9 +1,5 @@
-var load = document.querySelector(".loader");
+window.setTimeout(loading, 2000);
 
 function loading() {
-    load.style.display = "none"
+    document.querySelector(".loader").style.display = "none";
 }
-
-// $(document).ready(function() {
-//     $(".loader").fadeOut(2000)
-// });
