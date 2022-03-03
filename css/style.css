@@ -150,6 +150,15 @@ main {
     animation: forLoading1 2s linear infinite;
 }
 
+.ringtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
 .ring span {
     display: block;
     position: absolute;
