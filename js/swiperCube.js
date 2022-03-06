@@ -13,4 +13,8 @@ var swiper5 = new Swiper(".mySwiper5", {
             rotate: [0, 0, 90],
         },
     },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    }
 });
