@@ -410,6 +410,26 @@ main {
     background-color: transparent;
 }
 
+.tab {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+
+.tablinks {
+    padding: 5px 10px;
+    font-size: 18px;
+    background: rgb(168, 42, 42);
+    color: #fff;
+    cursor: pointer;
+}
+
+.tablinks:not(:nth-child(2)) {
+    margin: 0 20px 0 0;
+}
+
 .works {
     margin: 40px 0;
     overflow: hidden;
